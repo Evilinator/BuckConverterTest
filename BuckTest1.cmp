@@ -1,0 +1,157 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 8/20/2013 3:06:30 PM
+
+BeginCmp
+TimeStamp = /520EA104;
+Reference = C1;
+ValeurCmp = DNP;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /520E7248;
+Reference = C2;
+ValeurCmp = 100uF;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /520E9C60;
+Reference = C3;
+ValeurCmp = 1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /520E9C66;
+Reference = C4;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /520E7257;
+Reference = C5;
+ValeurCmp = 1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /520E7266;
+Reference = C6;
+ValeurCmp = 10nF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /520E7275;
+Reference = C7;
+ValeurCmp = 33nF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /520E7E5B;
+Reference = C8;
+ValeurCmp = DNP;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /520E7239;
+Reference = C9;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /520E8861;
+Reference = C10;
+ValeurCmp = 1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /520E8867;
+Reference = C11;
+ValeurCmp = 10uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52137E62;
+Reference = C12;
+ValeurCmp = 330uF;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /520E9126;
+Reference = J1;
+ValeurCmp = POWERCONN;
+IdModule  = pin_array_8x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /520E9505;
+Reference = J2;
+ValeurCmp = POWERCONN;
+IdModule  = pin_array_8x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /520E86BA;
+Reference = L1;
+ValeurCmp = 22uH;
+IdModule  = 4040DZ-11;
+EndCmp
+
+BeginCmp
+TimeStamp = /520EA0F5;
+Reference = R1;
+ValeurCmp = 55k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /520EA9E5;
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /520E7E57;
+Reference = R3;
+ValeurCmp = 50.8k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /520E7E20;
+Reference = R4;
+ValeurCmp = 0;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /520E7E2F;
+Reference = R5;
+ValeurCmp = 9.2k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /520E7E3E;
+Reference = R6;
+ValeurCmp = 4k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /520E6FE1;
+Reference = U1;
+ValeurCmp = LM3102;
+IdModule  = htssop-pwp-20;
+EndCmp
+
+EndListe
