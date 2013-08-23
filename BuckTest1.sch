@@ -36,7 +36,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "12V to 3.3V 2A Buck Converter 500kHz"
-Date "21 aug 2013"
+Date "22 aug 2013"
 Rev "1"
 Comp "Evil-inator"
 Comment1 "Buck Converter Test Board"
@@ -58,23 +58,23 @@ $EndComp
 $Comp
 L GND #PWR01
 U 1 1 520E7056
-P 5200 4500
-F 0 "#PWR01" H 5200 4500 30  0001 C CNN
-F 1 "GND" H 5200 4430 30  0000 C CNN
-F 2 "~" H 5200 4500 60  0000 C CNN
-F 3 "~" H 5200 4500 60  0000 C CNN
-	1    5200 4500
+P 5200 4650
+F 0 "#PWR01" H 5200 4650 30  0001 C CNN
+F 1 "GND" H 5200 4580 30  0000 C CNN
+F 2 "~" H 5200 4650 60  0000 C CNN
+F 3 "~" H 5200 4650 60  0000 C CNN
+	1    5200 4650
 	1    0    0    -1  
 $EndComp
 $Comp
 L AGND #PWR02
 U 1 1 520E7065
-P 4750 4500
-F 0 "#PWR02" H 4750 4500 40  0001 C CNN
-F 1 "AGND" H 4750 4430 50  0000 C CNN
-F 2 "~" H 4750 4500 60  0000 C CNN
-F 3 "~" H 4750 4500 60  0000 C CNN
-	1    4750 4500
+P 4600 4650
+F 0 "#PWR02" H 4600 4650 40  0001 C CNN
+F 1 "AGND" H 4600 4580 50  0000 C CNN
+F 2 "~" H 4600 4650 60  0000 C CNN
+F 3 "~" H 4600 4650 60  0000 C CNN
+	1    4600 4650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -379,20 +379,13 @@ $EndComp
 Text Label 1050 5800 0    60   ~ 0
 Buck_EN
 Wire Wire Line
-	4600 4300 4600 4400
-Wire Wire Line
-	4600 4400 4900 4400
-Wire Wire Line
-	4900 4400 4900 4300
-Wire Wire Line
-	4750 4300 4750 4500
-Connection ~ 4750 4400
+	4600 4300 4600 4650
 Wire Wire Line
 	5050 4300 5050 4400
 Wire Wire Line
 	5050 4400 5200 4400
 Wire Wire Line
-	5200 4300 5200 4500
+	5200 4300 5200 4650
 Wire Wire Line
 	1350 3200 3600 3200
 Wire Wire Line
@@ -564,4 +557,33 @@ Connection ~ 9700 3500
 Wire Wire Line
 	9700 3950 9700 4250
 Connection ~ 9700 4250
+$Comp
+L R R7
+U 1 1 52165AA1
+P 4800 4550
+F 0 "R7" V 4700 4450 40  0000 C CNN
+F 1 "0" V 4750 4450 40  0000 C CNN
+F 2 "~" V 4730 4550 30  0000 C CNN
+F 3 "~" H 4800 4310 30  0000 C CNN
+	1    4800 4550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4800 4550 4600 4550
+Connection ~ 4600 4550
+Wire Wire Line
+	5000 4550 5200 4550
+Connection ~ 5200 4550
+Text Label 4600 4550 1    60   ~ 0
+AGND
+Text Label 5200 4400 3    60   ~ 0
+GND
+Wire Wire Line
+	4750 4300 4750 4400
+Wire Wire Line
+	4600 4400 4900 4400
+Connection ~ 4600 4400
+Wire Wire Line
+	4900 4400 4900 4300
+Connection ~ 4750 4400
 $EndSCHEMATC
